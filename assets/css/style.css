@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header ,footer{
+    background-color: red;
+    width: 100%;
+    height: 80px;
+    color: white;
+}
+header h1,p{
+    padding-left: 30px;
+  
+}
+header h1{
+    padding-top: 10px;
+}
+section aside{
+    background-color: green;
+    float: left;
+    width: 15%;
+}
+
+aside ul li {
+    padding-left: 30px;
+    margin-top: 16px;
+    border-bottom: 1px solid white;
+    list-style:none;
+    color: white;
+
+}
+section main{
+    float: left;
+    width: 85%;
+}
+main h3{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: blue;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+aside h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgb(75, 9, 53);
+
+}
